@@ -1,0 +1,39 @@
+:root {
+  --color-acero: #428fbb;
+  --color-acero-dark: #0160a2; 
+  --color-white: #FFF;
+  --font-lato: 'Lato', sans-serif; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: var(--font-lato);
+}
+
+/* globals */
+
+li {
+  list-style: none;
+}
+
+input, button {
+  border: none;
+}
+
+.container {
+  width: 90%;
+}
+
+/* header */
+
+.header__title {
+  margin-top: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
