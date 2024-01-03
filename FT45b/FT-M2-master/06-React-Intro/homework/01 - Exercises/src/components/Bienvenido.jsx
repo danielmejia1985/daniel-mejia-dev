@@ -11,3 +11,4 @@ export default function Bienvenido() {
 
 // Esto lo exportamos para los tests
 export { studentName, techSkills, alerts };
+

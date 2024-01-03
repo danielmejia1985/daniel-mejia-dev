@@ -16,6 +16,8 @@ utils.readFile = function (filename, callback) {
 	}, randExtraTime);
 };
 
+
+
 utils.promisifiedReadFile = function (filename) {
 	return new Promise(function (resolve, reject) {
 		utils.readFile(filename, function (err, str) {
@@ -24,6 +26,10 @@ utils.promisifiedReadFile = function (filename) {
 		});
 	});
 };
+
+
+
+
 
 utils.blue = function (text) {
 	console.log(chalk.blue(text));

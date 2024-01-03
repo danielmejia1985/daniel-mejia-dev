@@ -2,6 +2,7 @@
 
 let fs = require("fs");
 let chalk = require("chalk");
+const { log } = require("console");
 
 let utils = {};
 
@@ -18,10 +19,16 @@ utils.readFile = function (filename, callback) {
 utils.promisifiedReadFile = function (filename) {
   return new Promise(function (resolve, reject) {
     let readFileSync = fs.readFileSync(filename);
-    if (!readFileSync) return reject("File not found");
+    // console.log(readFileSync + "-->holamundo");
+    if (!readFileSync) {
+      // console.log("error holamundo");
+      return reject("File not found");
+    } 
+    // console.log("resolve exitoso");
     resolve(readFileSync.toString());
   });
 };
+
 
 utils.blue = function (text) {
   if (text !== undefined && text !== null) console.log(chalk.blue(text));
@@ -30,5 +37,10 @@ utils.blue = function (text) {
 utils.magenta = function (text) {
   console.error(chalk.magenta(text));
 };
+
+utils.fnPrueba = (params) => {
+  
+}
+
 
 module.exports = utils;
