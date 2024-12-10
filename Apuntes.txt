@@ -1,1 +1,22 @@
-Hola mundo..
+
+
+*** Introducción a la Programación ***
+
+Programas a instalar en nuestra PC.-
+
+.Visual Studio Code
+.Node
+.Git
+.Crear cuenta en Github.com
+
+Agenda.-
+
+Tema n1 ..... Herramientas & Terminal
+Tema n2 ..... HTML
+Tema n3 ..... CSS
+Tema n4 ..... JavaScript I
+Tema n5 ..... JavaScript II
+Tema n6 ..... Bucles
+Tema n7 ..... Arrays
+Tema n8 ..... Objetos & Callbacks
+
