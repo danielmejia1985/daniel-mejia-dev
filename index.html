@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AppDeGatos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+
+  <div id="menu-inicio">
+
+    <a href="#fin-de-pagina" id="inicio-de-pagina">fin de la pagina</a>
+
+    
+      <h1 id="inicio" >App de Gatos - hola mundo****</h1>
+      <hr />
+
+  </div>
+
+  <h2>Imagenes de gatos</h2>
+
+  <h2>
+    Has click aqui para ver más
+    <a href="https://www.freecodecamp.org/" target="_blank">imagenes de gatos</a>
+  </h2>
+
+  <br>
+
+<div>
+  <a href="#" target="_blank"><img src="img/img1.jpg" class="imagen-de-gatos" alt="gato color naranja" /></a>
+
+</div>
+
+  <br /><br>
+
+  <img src="img/img2.jpg" class="bordes-redondeado" alt="gato no. 2" />
+  <br /><br>
+  <img src="img/img3.jpg" class="imagen-de-gatos" alt="gato no. 3" />
+  <br /><br>
+  <img src="img/img4.jpg" class="imagen-de-gatos" alt="gato no. 4" />
+  <br /><br />
+
+  <hr />
+  <!--Formulario-->
+
+  <form action="/fichero_de_basededatos">
+    <!--Botones de radio-->
+    <label for="Interior"><input type="radio" id="Interior" name="exterior-interior" value="interior" />Interior</label>
+    <br />
+    <label for="Exterior"><input type="radio" id="Exterior" name="exterior-interior" value="exterior" />Exterior</label>
+    <br />
+    <label for="Prueba"><input type="radio" id="Prueba" name="exterior-interior" value="prueba" />Prueba</label>
+
+    <br />
+    <br />
+
+    <!--Casillas de verificación - Checkbox-->
+    <label for="carinoso">
+      <input type="checkbox" id="carinoso" name="personalidad" value="carinoso" />
+      Cariñoso
+      <br />
+    </label>
+
+    <label for="perezoso"><input type="checkbox" id="perezoso" name="personalidad" value="perezoso" />Perezoso
+      <br /></label>
+    <label for="energico"><input type="checkbox" id="energico" name="personalidad" value="energico" />Enérgico
+      <br /></label>
+
+    <br />
+    <!--Texto y Botón de enviar-->
+    <input type="text" placeholder="Url de imagen de tu gato" required />
+    <br />
+    <button type="submit">Enviar..</button>
+  </form>
+  <hr />
+
+
+<div>
+
+    <!--Lista de gatos -->
+    <h3>Lista de Gatos</h3>
+
+    <div>
+      <p>Cosas que los gatos <strong>aman</strong>:</p>
+      <ul id="lista-gatos-aman">
+        <li>Menta gatuna</li>
+        <li>Apuntadores Láser</li>
+        <li>Lasaña</li>
+        <li>Prueba</li>
+      </ul>
+  
+  
+    </div>
+  
+    <img src="img/img5_lasana.jpg" alt="imaden de lasaña" />
+  
+    <!--Lista Ordenada-->
+    <p>Cosas que los gatos <strong>odian</strong>:</p>
+    <ol>
+      <li>Tratamientos</li>
+      <li>Truenos</li>
+      <li>Otros Gatos</li>
+    </ol>
+    <img src="img/img6_otrosgatos.jpg" id="probando-id" alt="Otros gatos" />
+
+</div>
+
+
+<div class="contenedor-parrafos">
+
+  <a href="#parrafo_1">
+    <p>Parrafo 1</p>
+  </a>
+  <a href="#parrafo_2">
+    <p>Parrafo 2</p>
+  </a>
+  <a href="#parrafo_3">
+    <p>Parrafo 3</p>
+  </a>
+  <a href="#parrafo_4">
+    <p>Parrafo 4</p>
+  </a>
+
+
+</div>
+
+
+
+
+
+
+  <hr />
+
+  <br />
+  <br />
+
+  <p id="parrafo_1">PARRAFO 1</p>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum neque qui
+    ratione voluptatum voluptates. Suscipit delectus nihil voluptas sapiente
+    sequi, laborum accusantium, molestias rerum tenetur tempora quos earum
+    veritatis rem? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    Quam quis, ad suscipit sunt culpa similique odio, quo, ipsa consectetur
+    sint excepturi aliquam itaque. Laborum ipsa nihil, non possimus porro
+    sapiente? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam,
+    dolorum laboriosam nihil quis libero voluptates dolores molestias!
+    Architecto illum, nulla obcaecati laboriosam praesentium, enim omnis, nisi
+    accusamus vitae quas quia?
+  </p>
+
+  <p id="parrafo_2">PARRAFO 2</p>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum neque qui
+    ratione voluptatum voluptates. Suscipit delectus nihil voluptas sapiente
+    sequi, laborum accusantium, molestias rerum tenetur tempora quos earum
+    veritatis rem? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    Quam quis, ad suscipit sunt culpa similique odio, quo, ipsa consectetur
+    sint excepturi aliquam itaque. Laborum ipsa nihil, non possimus porro
+    sapiente? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam,
+    dolorum laboriosam nihil quis libero voluptates dolores molestias!
+    Architecto illum, nulla obcaecati laboriosam praesentium, enim omnis, nisi
+    accusamus vitae quas quia?
+  </p>
+
+  <p id="parrafo_3">PARRAFO 3</p>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum neque qui
+    ratione voluptatum voluptates. Suscipit delectus nihil voluptas sapiente
+    sequi, laborum accusantium, molestias rerum tenetur tempora quos earum
+    veritatis rem? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    Quam quis, ad suscipit sunt culpa similique odio, quo, ipsa consectetur
+    sint excepturi aliquam itaque. Laborum ipsa nihil, non possimus porro
+    sapiente? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam,
+    dolorum laboriosam nihil quis libero voluptates dolores molestias!
+    Architecto illum, nulla obcaecati laboriosam praesentium, enim omnis, nisi
+    accusamus vitae quas quia?
+  </p>
+
+  <p id="parrafo_4">PARRAFO 4</p>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum neque qui
+    ratione voluptatum voluptates. Suscipit delectus nihil voluptas sapiente
+    sequi, laborum accusantium, molestias rerum tenetur tempora quos earum
+    veritatis rem? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    Quam quis, ad suscipit sunt culpa similique odio, quo, ipsa consectetur
+    sint excepturi aliquam itaque. Laborum ipsa nihil, non possimus porro
+    sapiente? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam,
+    dolorum laboriosam nihil quis libero voluptates dolores molestias!
+    Architecto illum, nulla obcaecati laboriosam praesentium, enim omnis, nisi
+    accusamus vitae quas quia?
+  </p>
+
+  <a href="#inicio-de-pagina">
+
+    <img src="/img/img5_inicio.jpg" alt="">
+
+  </a>
+
+  <footer id="fin-de-pagina">
+    <small>
+      <p>Sin derecho de autor -- <a href="https://www.freecodecamp.org/" target="_blank">freecodecamp.org</a> </p>
+    </small>
+  </footer>
+
+
+</body>
+
+</html>

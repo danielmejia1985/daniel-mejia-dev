@@ -1,0 +1,14 @@
+
+
+*** Apuntes CSS ***
+
+Etilos de fuentes con Google Fonts.-
+
+Link Web para ver los tipos de fuentes que podemos usar en nuestros proyectos web (https://fonts.google.com)
+
+. Hay que ingresar al Link y buscar el tipo de letra que queremos.
+. copiar el código y pegarlo en head de nuestro documento HTML.
+. Buscar el código css y pegarlo en nuestro documento de estilos .css
+
+
+

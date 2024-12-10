@@ -1,0 +1,120 @@
+/*Selectores de TIPO en css*/
+/* h1{
+    color: aqua ;
+    text-align: center;
+}
+
+h2{
+    color:blueviolet;
+}
+
+p{
+    color: chartreuse;
+}
+
+p{
+    color: chocolate;
+} */
+
+
+
+/*Selectores de CLASE en css: Selecciona todos los elementos que tienen el atributo class especificado
+* Sintaxis: .classname
+* Ejemplo: .index --> Seleccionará cualquier elemento que tenga la clase "index".
+*/
+
+/* Google Fonts
+
+*/
+
+
+#menu-inicio {
+    background-color: brown;
+}   
+
+
+h1 {
+    
+  font-family: "Edu AU VIC WA NT Arrows", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+/*Selector de clase --> class*/
+.imagen-de-gatos {
+    margin: 25px;
+    padding: 25px;
+
+    background-color: black;
+    border-width: 4px;
+    border-color: yellow;
+    border-style: solid;
+}
+
+/* .bordes-redondeado {
+    border-radius: 50%;
+} */
+
+
+div {
+    background-color: red;
+}
+
+.contenedor-parrafos {
+    background-color: chocolate;
+}
+
+/* #probando-id {
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color:aliceblue;
+} */
+
+/*Selector de id*/
+#lista-gatos-aman {
+    font-size: 15px;
+    color: beige;
+}
+
+/* #inicio {
+    color: blueviolet;
+    font-family:initial;
+} */
+
+
+/*Selector de atributo*/
+input[type = "radio"] {
+    margin : 5%px;
+}
+
+[type = "checkbox"] {
+    margin:  10px;
+}
+
+a[href = "https://www.freecodecamp.org/"] {
+
+    color:cornflowerblue;
+    text-decoration: none;
+    font-style:oblique;
+    font-size: small;
+
+}
+
+body {
+    background-color: #3b4a3a;
+}
+
+p{
+    color:  white;
+}
+
+img {
+    border-radius:  1500px;
+    border-color: #09d928;
+    border-width: 10px;
+    border-style: solid;
+
+}
